@@ -1,8 +1,159 @@
+html {
+    display: flex;
+    height: 100%;
+}
+body {
+    display: flex;
+    flex-basis: 100%;
+    margin: 0px;
+    height: 100%;
+}
 .toad-and-yosh {
-    width: 300px;
+    margin: 40px;
+    width: 250px;
     height: auto;
+}
+.opener .image {
+    margin-right: 200px;
 }
 .picture {
     width: 200px;
     height: auto;
+    border: 4px solid #3882F6;
+    border-radius: 20px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.header {
+    background-color: #1F2937;
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo {
+    margin-top: 10px;
+    font-weight: bold;
+}
+.links {
+    display: flex;
+}
+
+.opener {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button {
+    background-color: #3882F6;
+    border: none;
+    border-radius: 4px;
+    color: #E5E7EB;
+    padding: 6px;
+    font-weight: bold;
+}
+.words {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 80px;
+    justify-content: center;
+    align-items: center;
+}
+.words p {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-align: center;
+}
+.words .hero-text {
+    font-size: 40px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.info {
+    font-size: 30px;
+    font-weight: bolder;
+    color:#1F2937;
+}
+.pfps {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.pfp-1, .pfp-2, .pfp-3, .pfp-4 {
+    flex-basis: 15%;
+}
+.pfp-4 .picture {
+    height: 266.6px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    font-size: 20px;
+    color:#1F2937;
+    font-style: italic;
+}
+.testimonial {
+    width: 50%;
+    text-align: center;
+    margin-bottom: -5px;
+}
+
+.sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.float {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    margin: 40px;
+    padding: 30px;
+    border-radius: 20px;
+}
+.propaganda {
+    width: 70%;
+    color: #E5E7EB;
+    margin-right: 20px;
+    text-align: left;
+    font-weight: 600;
+}
+.sign-up .button {
+    border: 2px solid #E5E7EB;
+}
+
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    font-size: 14px;
+    color: #E5E7EB;
+    align-items: center;
+    justify-content: center;
+}
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+    margin-left: 10px;
 }
